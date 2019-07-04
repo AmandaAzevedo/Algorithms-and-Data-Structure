@@ -6,11 +6,11 @@
 
 <h6>Conteúdo</h6>
 <ol>
-  <li>Algoorítimos de ordenação</li>
+  <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o"> Algoorítimos de ordenação</a></li>
   <ul>
-    <li>Counting sort</li>
-    <li>Insertion sort</li>
-    <li>Selection sort</li>
+    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/countingSort">Counting sort</a></li>
+    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/insertionSort">Insertion sort</a></li>
+    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/selectionSort">Selection sort</a></li>
   </ul>
 </ol>
   
