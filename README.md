@@ -11,6 +11,7 @@
     <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/countingSort">Counting sort</a></li>
     <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/insertionSort">Insertion sort</a></li>
     <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/selectionSort">Selection sort</a></li>
+    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/MergeSort">Merge Sort</a></li>
   </ul>
   
   <li>Pilhas</li>
