@@ -10,7 +10,7 @@
   <ul>
     <li><del><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/countingSort">Counting sort</a></del></li>
     <li><del><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/insertionSort">Insertion sort</a></del></li>
-    <li><del><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/selectionSort">Selection sort</a>/<del></li>
+    <li><del><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/selectionSort">Selection sort</a><del></li>
     <li><del><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/MergeSort">Merge Sort + Merge</a><del></li>
       <li>Quicksort</li>
       <li>Radix Sort</li>
