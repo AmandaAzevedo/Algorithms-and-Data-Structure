@@ -8,10 +8,12 @@
 <ol>
   <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o"> Algoorítimos de ordenação</a></li>
   <ul>
-    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/countingSort">Counting sort</a></li>
-    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/insertionSort">Insertion sort</a></li>
-    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/selectionSort">Selection sort</a></li>
-    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/MergeSort">Merge Sort</a></li>
+    <li><del><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/countingSort">Counting sort</a></del></li>
+    <li><del><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/insertionSort">Insertion sort</a></del></li>
+    <li><del><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/selectionSort">Selection sort</a>/<del></li>
+    <li><del><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/MergeSort">Merge Sort + Merge</a><del></li>
+      <li>Quicksort</li>
+      <li>Radix Sort</li>
   </ul>
   
   <li>Pilhas</li>
