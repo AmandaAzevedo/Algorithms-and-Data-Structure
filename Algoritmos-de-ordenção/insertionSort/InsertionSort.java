@@ -2,21 +2,33 @@ package insertionSort;
 
 public class InsertionSort {
 
-	public void insertionSort(Comparable[] vetorDesordenado) {
+	    public static int[] insertionSort(int[] vetor) {
 
-		Comparable chave;
-		int i;
+        //for pra pegar os numeros a serem comparados
+        for (int i = 1; i < vetor.length; i++) {
+            
+            //pega um numero
+            int segundo = vetor[i], tmp;
 
-		for (int j = 0; j < vetorDesordenado.length; j++) {
-			chave = vetorDesordenado[j];
-			i = j - 1;
+           /* for pra ver se o numero da variável temporaria é maior que o atual
+            * se for maior ele troca os numeros de lugar
+            */
+            for (tmp = i - 1; tmp >= 0 && vetor[tmp] > segundo; tmp--) {
+                vetor[tmp + 1] = vetor[tmp];
+            }
 
-			while (i >= 0 && vetorDesordenado[i].compareTo(chave) > 0) {
-				vetorDesordenado[i + 1] = vetorDesordenado[i];
-				i = i - 1;
-			}
+            /* manda pra o indice o numero maior
+             * se o numero maior já tiver no lugar dele, só repete
+             */
+            vetor[tmp + 1] = segundo;
+        }
 
-			vetorDesordenado[i + 1] = chave;
-		}
-	}
+        return vetor;
+    }
+
 }
+
+
+
+
+

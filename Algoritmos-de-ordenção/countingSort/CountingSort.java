@@ -3,49 +3,48 @@ package countingSort;
 public class CountingSort {
 
 	/*
-	 * Método de ordenação counting sort recebe um vetor de números inteiros e o
-	 * maior valor existente neste vetor.
+	 * Método de ordenação counting sort recebe um vetor de números inteiros desordenados e
+	 * retorna um outro vetor com os mesmos números, só que ordenados .
 	 */
 
-	public int [] sort(int[] vetorDesordenado, int maiorElemento) {
+	public static int[] CountingSort(int[] vetorDesordenado) {
 
-		int[] vetorContadores = new int[maiorElemento + 1];
-		int[] vetorOrdenado = new int[vetorDesordenado.length];
+        int maiorElementoDoVetor = vetorDesordenado[0];
+        //encontra o maior valor do vetor
+        for (int i = 0; i < vetorDesordenado.length; i++) {
+            if (vetorDesordenado[i] > maiorElementoDoVetor) {
+                maiorElementoDoVetor = vetorDesordenado[i];
+            }
+        }
 
-		// o primeiro for inicia os contadores do vetorContadores
+        
+        int[] vetorAuxiliar = new int[maiorElementoDoVetor + 1]; //+1 pois se 10 for o maior valor, ele iria apenas de 0 a 9
 
-		for (int i = 0; i < vetorContadores.length; i++) {
-			vetorContadores[i] = 0;
-		}
+        //conta quantas vezes cada valor aparece no vetorDesordenado
+        for (int i = 0; i < vetorDesordenado.length; i++) {
+            vetorAuxiliar[vetorDesordenado[i]] += 1;
+        }
 
-		// o segundo for conta os elementos
+        //o for está percorrendo o vetorAuxiliar e achando o indice final de cada dado
+        for (int i = 1; i < vetorAuxiliar.length; i++) {
+            vetorAuxiliar[i] += vetorAuxiliar[i - 1];
+        }
 
-		for (int j = 0; j < vetorDesordenado.length; j++) {
+        //criando uma lista do mesmo tamanho da original toda zerada
+        int[] vetorOrdenado = new int[vetorDesordenado.length];
 
-			vetorContadores[vetorDesordenado[j]] = vetorContadores[vetorDesordenado[j]] + 1;
-		}
+        //percorre a lista do fim para o inicio
+        for (int i = vetorOrdenado.length - 1; i >= 0; i--) {
 
-		/*
-		 * Agora vetorContadores[i] contém o número de elementos em vetorDesordenado
-		 * iguais a i
-		 */
+            //achar o lugar que cada dado será colocado para ordenar a lista
+            vetorOrdenado[vetorAuxiliar[vetorDesordenado[i]] - 1] = vetorAuxiliar[vetorDesordenado[i]];
+            //o indice onde estava guardado o dado é subtraido 1, para saber que um numero já foi
 
-		/*
-		 * A próxima etapa consiste em usar essas informações para contar elementos
-		 * menores ou igual a i
-		 */
+            //adicionado e saber quantos faltam adicionar, daquele mesmo dado
+            vetorAuxiliar[vetorDesordenado[i]]--;
+        }
 
-		for (int i = 1; i < vetorContadores.length; i++) {
-			vetorContadores[i] = vetorContadores[i] + vetorContadores[i - 1];
-		}
+        return vetorOrdenado;
 
-		for (int j = vetorDesordenado.length-1; j >= 0; j--) {
-			vetorOrdenado[vetorContadores[vetorDesordenado[j]]-1] = vetorDesordenado[j];
-			vetorContadores[vetorDesordenado[j]] = vetorContadores[vetorDesordenado[j]] - 1;
-
-		}
-
-		return vetorOrdenado;
-	}
-
+    }
 }
