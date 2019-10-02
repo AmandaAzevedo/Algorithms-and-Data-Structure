@@ -4,6 +4,7 @@ Algoritmos e Estrutura de Dados é um repositório destinado a armazenar o códi
 
 ## Algoritmos encontrados neste repositório
 
+
 ### Algoritmos de ordenação
 - Counting sort
 - Insertion sort
