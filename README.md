@@ -1,22 +1,21 @@
-# Estrutura-de-Dados
+# Algoritmos e Estrutura de Dados
 
+Algoritmos e Estrutura de Dados é um repositório destinado a armazenar o código em Java 8, Python 3, e C/C++ de alguns algoritmos de ordenação (counting sort, insertion sort, selection sort, merge e merge sort, quick sort e radix sort), pesquisa em memória e de estrutura de dados como, pilhas, filas, lista encadeada, grafos, tabela hash, árvore binaária e de busca.
 
+## Algoritmos encontrados neste repositório
 
-<h6>Repositório destinado a agrupar os algoritmos passados nas aulas de Algorítimos e Estrutura de Dados 1.</h6>
+### Algoritmos de ordenação
+- Counting sort
+- Insertion sort
+- Selection sort
+- Merge e Merge sort
+- Quick sort
+- Radix sort
+### Pilhas
+###  Filas 
+### Lista Encadeada
+### Grafos
+### Pesquisa Em Memória
+### Tabela Hash
+### Árvore binárias e de busca
 
-<h6>Conteúdo</h6>
-<ol>
-  <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o"> Algorítimos de ordenação</a></li>
-  <ul>
-    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/countingSort"><del>Counting sort </del></a></li>
-    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/insertionSort"><del>Insertion sort</del></a></li>
-    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/selectionSort"><del>Selection sort</del></a></li>
-    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/MergeSort">Merge Sort + Merge(falta apenas pseudocódigo e comentar o código)</a></li>
-    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/quickSort"><del>Quicksort</del></a></li>
-    <li><a href = "https://github.com/AmandaAzevedo/Estrutura-de-Dados/tree/master/Algoritmos-de-orden%C3%A7%C3%A3o/radixSort">Radix Sort (falta implementação)</a></li>
-  </ul>
-  
-  <li>Pilhas</li>
-  <li>Filas</li>
-  <li>Listas Encadeadas</li>
- </ol>
